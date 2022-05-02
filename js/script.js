@@ -7,7 +7,7 @@ const app = new Vue({
     cognome: '',
     textColor: false,
     isTxtUnderline: false,
-    immagine: ''
+    immagine: 'img/1.jpg'
   },
 
   methods: {
