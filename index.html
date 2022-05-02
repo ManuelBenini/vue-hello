@@ -23,7 +23,7 @@
     <button @click="textUnderline()">Sottolinea il testo</button>
     <button @click="textColor = !textColor">Colora il testo</button>
 
-    <h1 :class="[textColor ? 'red' : '', isTxtUnderline ? 'underline' : '']">{{messaggio}} {{nome}} {{cognome}}</h1>
+    <h1 :class="[textColor ? 'red' : '', {'underline' : isTxtUnderline}]">{{messaggio}} {{nome}} {{cognome}}</h1>
 
     <div class="logo">
       <img :src="immagine" alt="">
